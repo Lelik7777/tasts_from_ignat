@@ -1,0 +1,43 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    background-color: orange;
+    width: 500px;
+    height: 200px;
+}
+
+.message img {
+    width: 100px;
+    border-radius: 50px;
+    margin:0 0 5px 10px;
+
+}
+
+.corner {
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(circle at 0 0, orange 30px, black 0);
+    margin-bottom: 10px;
+}
+
+.textMessage {
+    background-color: black;
+    width: 70%;
+    height: 80%;
+    margin: 10px 10px 10px 0;
+    border-radius: 10px 10px 10px 0;
+    position: relative;
+    padding: 10px;
+}
+.textMessage h2{
+    color: cyan;
+}
+.textMessage p{
+    color: blanchedalmond;
+}
+.textMessage h3{
+    color: yellowgreen;
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+}
